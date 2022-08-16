@@ -1,4 +1,4 @@
-package com.ivantheterrible.lesson.task2.ifelse;
+package com.ivantheterrible.lesson.task2.ifelse.leap;
 
 import java.util.Scanner;
 

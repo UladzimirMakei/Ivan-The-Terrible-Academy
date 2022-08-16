@@ -6,7 +6,6 @@ import static com.ivantheterrible.lesson.task2.ifelse.divisibility.DivisibilityM
 import static java.lang.System.out;
 
 public class NumberInput {
-
     public static int inputValue() {
         boolean successfulInput = false;
         int valueInput = '0';

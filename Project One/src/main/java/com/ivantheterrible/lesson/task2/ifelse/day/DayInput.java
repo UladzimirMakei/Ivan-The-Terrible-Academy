@@ -5,7 +5,6 @@ import java.util.Scanner;
 import static java.lang.System.out;
 
 public class DayInput {
-
     public static int inputValue() {
         boolean successfulInput = false;
         String dayOfWeek;

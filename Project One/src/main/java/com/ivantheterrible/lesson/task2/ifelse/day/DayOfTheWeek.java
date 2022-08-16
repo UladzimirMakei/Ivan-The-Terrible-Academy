@@ -1,7 +1,6 @@
 package com.ivantheterrible.lesson.task2.ifelse.day;
 
 public class DayOfTheWeek {
-
     public static String getDayOfTheWeek(int day) {
         String result = "Monday";
         switch (day) {

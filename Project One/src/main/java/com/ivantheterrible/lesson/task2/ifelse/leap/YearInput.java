@@ -19,6 +19,4 @@ public class YearInput {
         } while (!successfulInput);
         return valueInput;
     }
-
-
 }

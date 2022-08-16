@@ -6,13 +6,11 @@ import static java.lang.System.out;
 
 public class DayInput {
     public static int inputValue() {
-        boolean successfulInput = false;
+        boolean successfulInput;
         String dayOfWeek;
         do {
             dayOfWeek = greetingAndScanning();
-            if (isInputCorrect(dayOfWeek)) {
-                successfulInput = true;
-            } else out.println("Your input is not correct. Please try again");
+            successfulInput = isInputCorrect(dayOfWeek);
         } while (!successfulInput);
         return Integer.parseInt(dayOfWeek);
     }

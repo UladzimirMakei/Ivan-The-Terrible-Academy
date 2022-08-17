@@ -1,4 +1,4 @@
-package com.ivantheterrible.lesson.task2.ifelse.day;
+package com.ivantheterrible.lesson.task2.ifelse.dayofweek;
 
 public class DayOfTheWeek {
     public static String getDayOfTheWeek(int day) {

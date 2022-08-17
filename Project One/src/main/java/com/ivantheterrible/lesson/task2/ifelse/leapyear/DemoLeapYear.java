@@ -1,6 +1,6 @@
-package com.ivantheterrible.lesson.task2.ifelse.leap;
+package com.ivantheterrible.lesson.task2.ifelse.leapyear;
 
-import static com.ivantheterrible.lesson.task2.ifelse.leap.LeapYearMethod.checkLeapYear;
+import static com.ivantheterrible.lesson.task2.ifelse.leapyear.LeapYearMethod.checkLeapYear;
 import static java.lang.System.out;
 
 public class DemoLeapYear {

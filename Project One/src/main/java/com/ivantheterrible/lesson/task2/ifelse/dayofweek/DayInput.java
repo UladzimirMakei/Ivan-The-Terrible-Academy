@@ -1,4 +1,4 @@
-package com.ivantheterrible.lesson.task2.ifelse.day;
+package com.ivantheterrible.lesson.task2.ifelse.dayofweek;
 
 import java.util.Scanner;
 

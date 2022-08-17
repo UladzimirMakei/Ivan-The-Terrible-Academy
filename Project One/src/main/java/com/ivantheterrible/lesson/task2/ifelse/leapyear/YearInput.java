@@ -1,4 +1,4 @@
-package com.ivantheterrible.lesson.task2.ifelse.leap;
+package com.ivantheterrible.lesson.task2.ifelse.leapyear;
 
 import java.util.Scanner;
 

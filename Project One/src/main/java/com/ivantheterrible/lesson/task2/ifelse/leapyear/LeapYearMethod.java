@@ -1,4 +1,4 @@
-package com.ivantheterrible.lesson.task2.ifelse.leap;
+package com.ivantheterrible.lesson.task2.ifelse.leapyear;
 
 public class LeapYearMethod {
     public static String checkLeapYear(int year) {

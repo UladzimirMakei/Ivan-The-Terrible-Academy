@@ -1,6 +1,6 @@
-package com.ivantheterrible.lesson.task2.ifelse.day;
+package com.ivantheterrible.lesson.task2.ifelse.dayofweek;
 
-import static com.ivantheterrible.lesson.task2.ifelse.day.DayOfTheWeek.*;
+import static com.ivantheterrible.lesson.task2.ifelse.dayofweek.DayOfTheWeek.*;
 import static java.lang.System.out;
 
 public class DemoDays {

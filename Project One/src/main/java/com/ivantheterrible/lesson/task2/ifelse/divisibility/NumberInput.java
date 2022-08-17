@@ -16,7 +16,7 @@ public class NumberInput {
                 if (!successfulInput)
                     out.println("Your number is not divisible by 2, 3, 5");
             } catch (Exception e) {
-                out.println("Your number input is not correct. Please try again");
+                out.println("Your number input is not correct. Check requested format and try again");
             }
         } while (!successfulInput);
         return valueInput;

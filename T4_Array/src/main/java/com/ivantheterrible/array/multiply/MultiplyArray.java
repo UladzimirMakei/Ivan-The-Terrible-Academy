@@ -1,5 +1,6 @@
 package com.ivantheterrible.array.multiply;
 
+import static com.ivantheterrible.array.utils.UtilMethods.printArray;
 import static java.lang.System.*;
 
 public class MultiplyArray {
@@ -11,15 +12,7 @@ public class MultiplyArray {
         } else out.println("Array format is not correct");
     }
 
-    public static void printArray(int[] array) {
-        if (isArrayNotNull(array)) {
-            for (int i : array) {
-                out.print(i + " ");
-            }
-        }
-    }
-
-    private static boolean isArrayNotNull(int[] array) {
+    public static boolean isArrayNotNull(int[] array) {
         return array != null;
     }
 

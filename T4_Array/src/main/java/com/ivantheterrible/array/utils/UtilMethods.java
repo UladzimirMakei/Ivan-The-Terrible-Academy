@@ -1,10 +1,11 @@
-package com.ivantheterrible.array.multiply;
+package com.ivantheterrible.array.utils;
 
 import java.util.Scanner;
 
+import static com.ivantheterrible.array.multiply.MultiplyArray.isArrayNotNull;
 import static java.lang.System.out;
 
-public class MultiplyInput {
+public class UtilMethods {
     public static int inputValue() {
         boolean successfulInput = false;
         int valueInput = '0';
@@ -23,5 +24,19 @@ public class MultiplyInput {
         out.println("\nEnter a number to multiply array: ");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
+    }
+
+    public static void printArray(int[] array) {
+        if (isArrayNotNull(array)) {
+            for (int i : array) {
+                out.print(i + " ");
+            }
+        }
+    }
+
+    public static void printArray(String[] array) {
+        for (String i : array) {
+            out.print(i + " ");
+        }
     }
 }

@@ -5,7 +5,7 @@ public class Battleship8x8 {
     private long shots = 0L;
 
     public Battleship8x8(final long ships) {
-        this.ships = Math.abs(ships);
+        this.ships = ships;
     }
 
     public boolean shoot(String shot) {

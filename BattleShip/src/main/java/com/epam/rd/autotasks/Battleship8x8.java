@@ -9,9 +9,9 @@ public class Battleship8x8 {
     }
 
     public boolean shoot(String shot) {
-        int shotNumber = buildShot(shot);
+        this.shots = buildShot(shot);
         int array[] = buildArray(this.ships);
-        return (array[shotNumber] == 1);
+        return (array[(int)shots] == 1);
     }
 
     public String state() {
@@ -27,7 +27,7 @@ public class Battleship8x8 {
         return array;
     }
 
-    public int buildShot(String shot) {
+    public long buildShot(String shot) {
         int result = 0;
         switch (shot.charAt(0)) {
             case 'A':
@@ -59,7 +59,7 @@ public class Battleship8x8 {
         return result;
     }
 
-    private int rowNumber(String shot) {
+    private long rowNumber(String shot) {
         int result = 0;
         switch (shot.charAt(1)) {
             case '1':

@@ -9,7 +9,9 @@ public class Battleship8x8 {
     }
 
     public boolean shoot(String shot) {
-        return false;
+        int shotNumber = buildShot(shot);
+        int array[] = buildArray(this.ships);
+        return (array[shotNumber] == 1);
     }
 
     public String state() {

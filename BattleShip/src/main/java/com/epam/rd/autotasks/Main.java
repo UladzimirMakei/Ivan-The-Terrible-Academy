@@ -8,8 +8,9 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i]);
         }
-        String alpha = "B1";
+        String alpha = "G1";
         int shot = battle.buildShot(alpha);
         System.out.println("\n" + shot);
+        System.out.println(battle.shoot(alpha));
     }
 }

@@ -16,5 +16,12 @@ public class Demo {
         //Расчет и вывод результата
         out.println("After multiplication: ");
         multiplyArray(arrayTaskOne, multiply);
+
+        //Задача №2 - Содержит ли массив данную букву
+        //Исходный массив
+        String[] arrayTaskTwo = {"max", "vova", "lera", "ivan", "muhhammad"};
+        out.println("\nTask #2: ");
+        printArray(arrayTaskTwo);
+        out.println("What letter would you like to find: ");
     }
 }

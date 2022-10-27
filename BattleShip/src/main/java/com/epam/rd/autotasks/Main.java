@@ -1,16 +1,14 @@
 package com.epam.rd.autotasks;
 
+import java.nio.ByteBuffer;
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        long number = 0b01000000_01000000_01000000_01000000_00001110_00000001_00000100_00000000L;
+        Long number = -1150950973573693440L;
         Battleship8x8 battle = new Battleship8x8(number);
-        int[] array = battle.buildArray(number);
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]);
-        }
-        String alpha = "A1";
-        long shot = battle.buildShot(alpha);
-        System.out.println("\n" + shot);
-        System.out.println(battle.shoot(alpha));
+        battle.shoot("A1");
+        System.out.println(battle.state());
+
     }
 }
